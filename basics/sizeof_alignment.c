@@ -16,7 +16,7 @@ int main(void)
     printf("Size of int: %zu bytes\n", sizeof(int));
     printf("Size of uint32_t: %zu bytes\n", sizeof(uint32_t));
 
-    // Size of an array
+    // Size of an array 
     int numbers[5];
     printf("Array size: %zu bytes\n", sizeof(numbers));
 
@@ -26,3 +26,13 @@ int main(void)
 
     return 0;
 }
+
+//sizeof — returns the size of an object or type in bytes.
+//%zu — format specifier for sizeof results.
+//Padding — extra bytes a compiler may add between structure members or at the end.
+//Alignment — placing data at memory addresses suitable for its type.
+
+//For example, a structure containing 1-byte and 4-byte members may occupy more than the sum of their member sizes.
+
+
+
