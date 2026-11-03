@@ -41,6 +41,9 @@ int main(void)
     return 0;
 }
 
+// GPIO Pull-Up/Pull-Down Register (PUPDR)
+// The PUPDR register configures the internal pull-up and pull-down resistors of GPIO pins.
+
 // Explanation
 // Each GPIO pin uses two bits in PUPDR.
 // Bits	Configuration
