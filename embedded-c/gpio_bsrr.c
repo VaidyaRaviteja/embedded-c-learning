@@ -31,3 +31,4 @@ int main(void)
 // Expected output
 // After SET:   ODR = 0x00000020
 // After RESET: ODR = 0x00000000
+
