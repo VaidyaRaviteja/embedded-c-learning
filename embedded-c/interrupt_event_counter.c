@@ -22,3 +22,5 @@ int main(void)
     return 0;
 }
 
+// Short explanation: Each interrupt increments button_count. In real STM32 hardware, the EXTI interrupt handler is triggered by the configured GPIO edge. Here, we call it manually to simulate three events.
+
