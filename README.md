@@ -2,6 +2,13 @@
 
 This repository contains my C programming practice while learning Embedded Systems.
 
+## Explore the examples
+
+- [C fundamentals](./basics)
+- [GPIO button debouncing](./embedded-c/gpio_button_debounce.c)
+- [Timer prescalers](./embedded-c/timer_prescaler.c)
+- [Interrupt flag handling](./embedded-c/interrupt_flag_handling.c)
+
 ## Topics
 
 - C program structure
